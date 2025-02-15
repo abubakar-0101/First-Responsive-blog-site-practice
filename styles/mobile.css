@@ -4,3 +4,19 @@
 .navbar{
   display: none;
 }
+.hero-image{
+  min-height: 250px;
+}
+.hero{
+  position: static;
+}
+.hero-description{
+  width: 80%;
+  left: 10%;
+  padding: 20px;
+  top:300px;
+}
+.hero-description h1 a {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
