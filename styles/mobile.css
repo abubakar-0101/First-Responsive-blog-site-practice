@@ -20,3 +20,9 @@
   font-size: 1.5rem;
   line-height: 1.2;
 }
+.blog-posts{
+  margin-top: 16rem;
+}
+.single-blog{
+  flex-basis: 100%
+}

@@ -130,3 +130,52 @@ main{
   width: 48px;
   height: auto;
 }
+
+/* blog-section */
+.blog-posts{
+  margin-top: 10rem;
+}
+.blog-posts h1{
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.posts{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.single-blog{
+  flex-basis: 32%;
+  border: 1px solid #E8E8EA;
+  padding: 16px;
+  border-radius: 0.75rem;
+
+}
+.single-blog .blog-main-img{
+  width: 100%;
+  border-radius: 0.62rem;
+}
+.single-blog .article-details{
+  padding: 24px 8px;
+  margin-top: 0.5rem;
+}
+.single-blog .hero-badge {
+background-color: rgba(75,107,251,0.05);
+color: var(--primary-color);
+
+}
+
+.single-blog h2 a {
+  text-decoration: none;
+  color: #181a2a;
+  font-size:1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.single-blog .author-section img{
+  width: 36px;
+  height: auto;
+}
