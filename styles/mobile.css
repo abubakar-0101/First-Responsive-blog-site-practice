@@ -1,28 +1,42 @@
-.header-wrapper{
+.header-wrapper {
   width: 100%;
 }
-.navbar{
+.navbar {
   display: none;
 }
-.hero-image{
+.hero-image {
   min-height: 250px;
 }
-.hero{
+.hero {
   position: static;
 }
-.hero-description{
+.hero-description {
   width: 80%;
   left: 10%;
   padding: 20px;
-  top:300px;
+  top: 300px;
 }
 .hero-description h1 a {
   font-size: 1.5rem;
   line-height: 1.2;
 }
-.blog-posts{
+.blog-posts {
   margin-top: 16rem;
 }
-.single-blog{
-  flex-basis: 100%
+.single-blog {
+  flex-basis: 100%;
+}
+.footer-wrapper {
+  max-width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.footer-links {
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.footer-links li {
+  border: none;
 }
