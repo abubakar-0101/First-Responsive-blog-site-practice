@@ -1,11 +1,8 @@
 .header-wrapper {
   width: 100%;
 }
-.navbar {
-  display: none;
-}
 .hero-image {
-  min-height: 250px;
+  min-height: 550px;
 }
 .hero {
   position: static;
@@ -14,32 +11,20 @@
   width: 80%;
   left: 10%;
   padding: 20px;
-  top: 300px;
+  top: 500px;
 }
 .hero-description h1 a {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.2;
 }
 .blog-posts {
-  margin-top: 14rem;
-}
-.author-section {
-  font-size: 1rem;
+  margin-top: 8rem;
 }
 .single-blog {
-  flex-basis: 100%;
+  flex-basis: 48%;
 }
 .footer-wrapper {
   max-width: 100%;
   margin: 0;
   justify-content: center;
-}
-
-.footer-links {
-  flex-direction: column;
-  row-gap: 20px;
-}
-
-.footer-links li {
-  border: none;
 }
